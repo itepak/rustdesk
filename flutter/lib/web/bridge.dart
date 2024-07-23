@@ -943,7 +943,7 @@ class RustdeskImpl {
     throw UnimplementedError();
   }
 
-  Future<String> mainVideoSaveDirectory({required bool root, dynamic hint}) {
+  String mainVideoSaveDirectory({required bool root, dynamic hint}) {
     throw UnimplementedError();
   }
 
@@ -1611,6 +1611,14 @@ class RustdeskImpl {
   }
 
   bool mainGetUseTextureRender({dynamic hint}) {
+    throw UnimplementedError();
+  }
+
+  bool mainHasValidBotSync({dynamic hint}) {
+    throw UnimplementedError();
+  }
+
+  Future<String> mainVerifyBot({required String token, dynamic hint}) {
     throw UnimplementedError();
   }
 
